@@ -1,0 +1,6 @@
+venv
+*.pyc
+staticfiles
+.env
+db.sqlite3
+#saying git to ignore certain things
