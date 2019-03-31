@@ -7,7 +7,6 @@
     <body>
         <div>
             <h1><a href="/">My Blog</a></h1>
-            <div><a href="{% url 'post_new' %}" >Add post</a></div>
             {% if user.is_authenticated %}
             <div><a href="{% url 'post_new' %}" >Add post</a></div>
             {% endif %}
